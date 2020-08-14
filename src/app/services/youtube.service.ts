@@ -12,8 +12,8 @@ import { map } from 'rxjs/operators';
 export class YoutubeService {
 
   private youtubeUrl = 'https://www.googleapis.com/youtube/v3';
-  private apiKey = 'AIzaSyD1ddr3aH8PJ0TdsP8YqRS05sZrv8u39SY';
-  private playlist = 'UUsN8M73DMWa8SPp5o_0IAQQ';
+  private apiKey = ''; //Api a utilizar
+  private playlist = ''; //playlist
   private nextPageToken: any;
 
 
